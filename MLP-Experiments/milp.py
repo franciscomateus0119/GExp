@@ -5,8 +5,8 @@ import tensorflow as tf
 import pandas as pd
 
 # For type annotations
-from keras.engine.sequential import Sequential
-from keras.layers.core.dense import Dense
+from tensorflow.keras.models import Sequential  
+from tensorflow.keras.layers import Dense  
 
 
 def codify_network_fischetti(
